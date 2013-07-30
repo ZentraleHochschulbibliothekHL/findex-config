@@ -20,8 +20,8 @@ import com.mchange.v2.c3p0.*;
 ComboPooledDataSource cpds = new ComboPooledDataSource();
 cpds.setDriverClass("com.mysql.jdbc.Driver"); //loads the jdbc driver            
 cpds.setJdbcUrl( "jdbc:mysql://localhost/links" );
-cpds.setUser("solr");                                  
-cpds.setPassword("s0lR"); 
+cpds.setUser("");                                  
+cpds.setPassword(""); 
 
 // define the base level indexer so that its methods can be called from the script.
 // note that the SolrIndexer code will set this value before the script methods are called.
